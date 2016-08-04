@@ -12,7 +12,10 @@ Slight variations in the way pages appear in different browsers are acceptable a
 
 Example of a slight variation - on  the right is a button viewed in IE8 which doesn't support CSS gradients and rounded corners, so it has flat colour and square corners.
 
-Example of a variation that requires a polyfill - use of the <picture> element or srcset to give responsive images.
+![](https://github.com/wwf-international/browser-support-wwf-uk/blob/master/resources/level-1-button-example.png)
+
+
+Example of a variation that requires a polyfill - use of the `<picture>` element or `srcset`.
 
 ### Level 1 supported browsers as of 22 September 2015
 
@@ -33,6 +36,9 @@ Presentation can degrade to a noticeable level, but not to the extent that funct
 Components of a site may omit support for level two browsers if they are not essential. In this case a message should be displayed, stating that a more recent browser is required.
 
 Example: The energy quiz is not essential to the Earth Hour site.  A message is displayed explaining that the quiz doesn't work with older browsers.
+
+![](https://github.com/wwf-international/browser-support-wwf-uk/blob/master/resources/level-2-earth-hour-quiz-example.png)
+
 
 ### Level 2 supported browsers as of 22 September 2015
 
