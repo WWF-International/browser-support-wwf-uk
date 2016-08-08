@@ -2,6 +2,8 @@
 
 WWF UK uses a tiered browser support model. This document gives details of which browsers should be supported and to what level.
 
+Last updated on 22 September 2015.
+
 ## Level 1 support
 
 Level one browsers must be fully supported.
@@ -17,7 +19,7 @@ Example of a slight variation - on  the right is a button viewed in IE8 which do
 
 Example of a variation that requires a polyfill - use of the `<picture>` element or `srcset`.
 
-### Level 1 supported browsers as of 22 September 2015
+### Level 1 supported browsers
 
 * IE 9, 10, 11
 * Edge
@@ -40,7 +42,7 @@ Example: The energy quiz is not essential to the Earth Hour site.  A message is 
 ![](https://github.com/wwf-international/browser-support-wwf-uk/blob/master/resources/level-2-earth-hour-quiz-example.png)
 
 
-### Level 2 supported browsers as of 22 September 2015
+### Level 2 supported browsers
 
 * IE  8
 * Firefox 3 - 30
