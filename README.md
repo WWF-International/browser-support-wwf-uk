@@ -23,7 +23,7 @@ Example of a slight variation - the righthand of the two buttons below has flat 
 
 ![](https://github.com/wwf-international/browser-support-wwf-uk/blob/master/resources/level-1-button-example.png)
 
-Example of a variation that requires a polyfill - use of the `<picture>` element or `srcset`.
+Example of a variation that requires a polyfill - use of the `<picture>` element or `srcset`; or the use of `position: sticky`.
 
 ### Level one supported browsers
 
