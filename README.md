@@ -2,12 +2,14 @@
 
 WWF UK uses a tiered browser support model. This document gives details of which browsers should be supported and to what level.
 
-This was last looked at on 19 April, using data from 1 January to 31 March 2017 on all WWF UK websites. It will be updated at the start of July using the next quarter's information.
+This was last looked at on 19 April, using data from 1 January to 31 March 2017 on all WWF UK websites. It will be updated at the start of July using the previous quarter's information.
 
 # Expectations
 
 ## Build to be compatible with as many browsers as possible
 We build with the understanding that [websites don't have to look exactly the same in every browser](http://dowebsitesneedtolookexactlythesameineverybrowser.com), but that they should look as similar as possible.
+
+It's worth explicitly mentioning that this covers everything on a website: HTML, CSS, and JavaScript. 
 
 We have two levels of browser support. These categories are based on what browser numbers we see visiting all of WWF-UK's websites.
 
@@ -19,11 +21,16 @@ When a site is viewed in a level one browser all content must appear and functio
 
 Slight variations in the way pages appear in different browsers are acceptable as long as it would not be obvious to a user without comparing the site in two browsers.
 
-Example of a slight variation - the righthand of the two buttons below has flat colour and square corners; the left hand button has a gradient and rounded corners.
+Example of a slight variation - the right of the two buttons below has flat colour and square corners; the left button has a gradient and rounded corners.
 
 ![](https://github.com/wwf-international/browser-support-wwf-uk/blob/master/resources/level-1-button-example.png)
 
-Example of a variation that requires a polyfill - use of the `<picture>` element or `srcset`; or the use of `position: sticky`.
+
+Example of a variation that could use a polyfill - the `<picture>` element or `srcset`. Since `<picture>` and `srcset` degrade nicely, so if a supporter has JavaScript turned off in a browser that doesn't support these they shouldn't notice a difference.
+
+Example of a variation that shouldn't use a polyfill - CSS Grid Layout. Only 14% of our visitor's browsers support it; and, if polyfilled, then anyone with JavaScript turned off will have a degraded experience.
+
+If in doubt with a particular case, give us a shout and we'll discuss - then add it into this document.
 
 ### Level one supported browsers
 
@@ -37,7 +44,7 @@ Example of a variation that requires a polyfill - use of the `<picture>` element
 
 For your `package.json` file, use this [Browserslist](https://github.com/ai/browserslist):
 
-```
+````
 {
     "browserslist": [
         explorer >= 10, 
@@ -50,7 +57,7 @@ For your `package.json` file, use this [Browserslist](https://github.com/ai/brow
     ]
 }
 
-```
+````
 
 ## Level two support
 
