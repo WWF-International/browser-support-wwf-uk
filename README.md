@@ -29,7 +29,7 @@ Example of a variation that requires a polyfill - use of the `<picture>` element
 
 * Internet Explorer 10 and 11
 * Edge 12 to latest version
-* Firefox 31 to latest version
+* Firefox 38 to latest version
 * Safari 6 to latest version
 * Chrome 44 to latest version
 * Safari (stock browser) on iOS 8, 9, and 10
