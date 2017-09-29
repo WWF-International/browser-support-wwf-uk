@@ -2,14 +2,14 @@
 
 WWF UK uses a tiered browser support model. This document gives details of which browsers should be supported and to what level.
 
-This was last looked at on 19 April, using data from 1 January to 31 March 2017 on all WWF UK websites. It will be updated at the start of July using the previous quarter's information.
+This was last looked at on 29 September, using data from 1 June to 29 September 2017 on all WWF UK websites. It will be updated at the start of January 2018 using the previous quarter's information.
 
 # Expectations
 
 ## Build to be compatible with as many browsers as possible
 We build with the understanding that [websites don't have to look exactly the same in every browser](http://dowebsitesneedtolookexactlythesameineverybrowser.com), but that they should look as similar as possible.
 
-It's worth explicitly mentioning that this covers everything on a website: HTML, CSS, and JavaScript. 
+It's worth explicitly mentioning that this covers everything on a website: HTML, CSS, and JavaScript.
 
 We have two levels of browser support. These categories are based on what browser numbers we see visiting all of WWF-UK's websites.
 
@@ -28,7 +28,7 @@ Example of a slight variation - the right of the two buttons below has flat colo
 
 Example of a variation that could use a polyfill - the `<picture>` element or `srcset`. Since `<picture>` and `srcset` degrade nicely, so if a supporter has JavaScript turned off in a browser that doesn't support these they shouldn't notice a difference.
 
-Example of a variation that shouldn't use a polyfill - CSS Grid Layout. Only 14% of our visitor's browsers support it; and, if polyfilled, then anyone with JavaScript turned off will have a degraded experience.
+Example of a variation that shouldn't use a polyfill - CSS Grid Layout. 60% of our visitor's browsers support grid - and, if polyfilled, then anyone with JavaScript turned off will have a degraded experience.
 
 If in doubt with a particular case, give us a shout and we'll discuss - then add it into this document.
 
@@ -47,13 +47,13 @@ For your `package.json` file, use this [Browserslist](https://github.com/ai/brow
 ````
 {
     "browserslist": [
-        explorer >= 10, 
-        Edge >= 12, 
-        Firefox >= 38, 
-        Safari >= 6, 
-        Chrome >= 44, 
-        iOS >= 8, 
-        ChromeAndroid >= 4.1
+        "explorer >= 10",
+        "Edge >= 12",
+        "Firefox >= 38",
+        "Safari >= 6",
+        "Chrome >= 44",
+        "iOS >= 8",
+        "ChromeAndroid >= 4.1"
     ]
 }
 
