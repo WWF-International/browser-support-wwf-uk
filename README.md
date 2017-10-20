@@ -11,7 +11,7 @@ We build with the understanding that [websites don't have to look exactly the sa
 
 It's worth explicitly mentioning that this covers everything on a website: HTML, CSS, and JavaScript.
 
-We have two levels of browser support. These categories are based on what browser numbers we see visiting all of WWF-UK's websites.
+We have two levels of browser support. These categories are based on what visitors are using when visiting any of WWF UK's websites.
 
 ## Level one support
 
