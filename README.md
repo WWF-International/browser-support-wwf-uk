@@ -2,7 +2,7 @@
 
 WWF UK uses a tiered browser support model. This document gives details of which browsers should be supported and to what level.
 
-This was last looked at on 29 September, using data from 1 June to 29 September 2017 on all WWF UK websites. It will be updated at the start of January 2018 using the previous quarter's information.
+This was last looked at on 30 January, using data from 1 October to 31 December 2017 on all WWF UK websites. It will be updated at the start of April  2018 using the previous quarter's information.
 
 # Expectations
 
@@ -36,11 +36,11 @@ If in doubt with a particular case, give us a shout and we'll discuss - then add
 
 * Internet Explorer 10 and 11
 * Edge 12 to latest version
-* Firefox 38 to latest version
-* Safari 6 to latest version
-* Chrome 44 to latest version
-* Safari (stock browser) on iOS 8, 9, and 10
-* Chrome (stock browser) on Android 4.1, 5
+* Firefox 52 to latest version
+* Safari 9 to latest version
+* Chrome 49 to latest version
+* Safari (stock browser) on iOS 9 to latest version
+* Chrome (stock browser) on Android 4.4 to latest version
 
 For your `package.json` file, use this [Browserslist](https://github.com/ai/browserslist):
 
@@ -49,11 +49,11 @@ For your `package.json` file, use this [Browserslist](https://github.com/ai/brow
     "browserslist": [
         "explorer >= 10",
         "Edge >= 12",
-        "Firefox >= 38",
-        "Safari >= 6",
-        "Chrome >= 44",
-        "iOS >= 8",
-        "ChromeAndroid >= 4.1"
+        "Firefox >= 52",
+        "Safari >= 9",
+        "Chrome >= 49",
+        "iOS >= 9",
+        "ChromeAndroid >= 4.4"
     ]
 }
 
@@ -68,10 +68,10 @@ Presentation can degrade to a noticeable level, but not to the extent that funct
 ### Level two supported browsers
 
 * Internet Explorer 8 and 9
-* Firefox 30 - 37
-* Safari 5
-* Chrome 38 - 43
-* Safari (stock browser) on iOS 7
+* Firefox 37 to 52
+* Safari 7, 8
+* Chrome 38 - 48
+* Safari (stock browser) on iOS 8
 
 ## Level 3 supported browsers - unsupported
 
