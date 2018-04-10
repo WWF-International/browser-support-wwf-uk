@@ -2,7 +2,7 @@
 
 WWF UK uses a tiered browser support model. This document gives details of which browsers should be supported and to what level.
 
-This was last looked at on 30 January, using data from 1 October to 31 December 2017 on all WWF UK websites. It will be updated at the start of April  2018 using the previous quarter's information.
+This was last looked at on 10 April, using data from 1 January to 31 March 2018 on all WWF UK websites. It will be updated at the start of August  2018 using the previous quarter's information.
 
 # Expectations
 
