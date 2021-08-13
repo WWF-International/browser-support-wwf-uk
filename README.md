@@ -2,7 +2,7 @@
 
 WWF UK uses a tiered browser support model. This document gives details of which browsers should be supported and to what level.
 
-This was last looked at on 14 October 2020 using data from the last 30 days across all sites on the main Google Analytics property.
+This was last looked at on 12 August 2021 using data from the last 30 days across all sites on the main Google Analytics property.
 
 # Expectations
 
@@ -34,10 +34,10 @@ If in doubt with a particular case, give us a shout and we'll discuss - then add
 
 ### Level one supported browsers
 
-* Edge 17 to latest version
-* Firefox 52 to latest version
+* Edge 90 to latest version
+* Firefox 70 to latest version
 * Safari 10 to latest version
-* Chrome 49 to latest version
+* Chrome 70 to latest version
 * Safari (stock browser) on iOS 10 to latest version
 * Chrome (stock browser) on Android 5.1 to latest version
 
@@ -46,10 +46,10 @@ For your `package.json` file, use this [Browserslist](https://github.com/ai/brow
 ````
 {
     "browserslist": [
-        "Edge >= 17",
-        "Firefox >= 52",
+        "Edge >= 90",
+        "Firefox >= 70",
         "Safari >= 10",
-        "Chrome >= 49",
+        "Chrome >= 70",
         "iOS >= 10",
         "ChromeAndroid >= 5.1"
     ]
@@ -65,11 +65,11 @@ Presentation can degrade to a noticeable level, but not to the extent that funct
 
 ### Level two supported browsers
 
-* Internet Explorer 9, 10, 11
-* Edge up to 17
-* Firefox 38 to 51
+* Internet Explorer 11
+* Edge 17 - 89
+* Firefox 40 - 69
 * Safari 8, 9
-* Chrome 38 - 48
+* Chrome 49 - 69
 * Safari (stock browser) on iOS 9
 * Chrome (stock browser) on Android 4.4 to 5.0
 
